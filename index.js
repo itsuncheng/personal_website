@@ -13,4 +13,4 @@ app.get('/hello', function(req, res){
    // res.render("/static/test");
 });
 
-app.listen(8080);
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
