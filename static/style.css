@@ -1,0 +1,112 @@
+.red {
+   color: red;
+}
+
+
+.frontPage {
+   background-image: url("/images/2.jpg");
+   height:100vh;
+   position: relative
+   /* height:100%;
+   background-position: center; */
+
+}
+
+.center{
+   text-align:center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+
+.aboutMe{
+   background-color: white;
+   height:100vh;
+   position: relative
+   /* height:100%;
+   background-position: center;
+   padding-top:40px;
+   padding-bottom:40px;
+   padding-left:30px;
+   padding-right:30px; */
+}
+
+.projects{
+   background-color: #282828;
+   color:white;
+   height:100vh;
+   position: relative
+}
+
+.projectsCard{
+   margin-top:60px;
+   text-align:center;
+   font-family:"Gravity-Book";
+   letter-spacing:4px;
+}
+
+.projectsCard2{
+   margin-top:60px;
+   text-align:center;
+   letter-spacing:2px;
+}
+
+.skills{
+   background-color: white;
+   height:100vh;
+   position: relative
+}
+
+.skillsCard{
+   margin-top:70px;
+   text-align:center;
+   font-family:"Gravity-Book";
+   letter-spacing:4px;
+}
+
+.skillsCard2{
+   margin-top:30px;
+   text-align:center;
+   letter-spacing:2px;
+}
+
+.space{
+   padding-top: 80px;
+}
+
+.extraSpace{
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+.projectsTitle{
+   text-align: left;
+   font-family:"Gravity-Book";
+   letter-spacing:8px;
+}
+
+.footer {
+    background-color: #282828;
+    padding: 0px;
+}
+
+
+.centerLinks {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.socialIcons{
+   width: 1%;
+   height: auto;
+}
+
+
+.bottomLinksDiv {
+    background-color: #191919;
+    padding: 30px;
+}
