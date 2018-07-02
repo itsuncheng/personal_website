@@ -1,9 +1,16 @@
 var express = require('express');
 var app = express();
-app.use(express.static('static'));
+var path = require('path');
+app.use(express.static('public'));
+
+
 
 app.get('/', function(req, res){
-   res.render("/static/index");
+    res.sendFile(path.join(__dirname + '/public/home.html'));
+});
+
+app.get('/hello', function(req, res){
+   // res.render("/static/test");
 });
 
 app.listen(3000);
