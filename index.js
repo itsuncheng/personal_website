@@ -13,4 +13,4 @@ app.get('/hello', function(req, res){
    // res.render("/static/test");
 });
 
-app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
+app.listen(process.env.PORT || 5000);
