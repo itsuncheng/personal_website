@@ -1,0 +1,15 @@
+.contactFrontPage{
+  height:100vh;
+  width:60%;
+  margin:auto;
+}
+
+.contactsTitle{
+   margin-top:60px;
+   letter-spacing:10px;
+}
+
+.regTitle{
+    margin-bottom: 50px;
+   letter-spacing:6px;
+}
